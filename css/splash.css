@@ -1,0 +1,86 @@
+.center {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+body {
+    background: url(../img/nebula.png) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+img {
+	background-color: rgba(21,21,21,.5);
+	border-radius: 5%;
+	padding-right: .25em;
+	padding-left: .25em;
+	width: 60%;
+	height: auto;
+}
+
+h2 {
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 1px;
+	font-size: 24px;
+	text-align: right;
+	margin-right: 3%;
+	margin-top: 1%;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,.8);
+	text-shadow: 1px 1px 1px black;
+	transition: all .6s;
+}
+
+a:hover {
+	color: #ddbddb;
+}
+
+
+footer nav {
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+}
+
+p, h4 {
+	color: rgba(255,255,255,.8);
+	width: 48%;
+	float: left;
+}
+
+p {
+	text-align: left;
+	margin-left: 2%;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+h4 {
+	text-align: right;
+	margin-right: 2%;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+h6 {
+	font-size: 100%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	text-align: center;
+	color: rgba(255,255,255,.8);
+}
+
+
+
+@media screen and (min-width: 47.5em){
+img {
+	height: 50%;
+	width: auto;
+}
+}
+
