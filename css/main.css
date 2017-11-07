@@ -573,18 +573,5 @@ DESKTOP VIEW CHANGES
 GIANT SCREENS
 **/
 
-@media screen and (min-width:120em){
-	
-	body {
-		font-size: 400%;
-	}
-
-	img {
-		height: 50%;
-		width: auto;
-	}
-
-}
-
 
 
