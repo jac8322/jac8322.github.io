@@ -573,7 +573,7 @@ DESKTOP VIEW CHANGES
 GIANT SCREENS
 **/
 
-@media screen and (min-width:80em){
+@media screen and (min-width:70em){
 	
 	body {
 		font-size: 200%;
