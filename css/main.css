@@ -293,8 +293,11 @@ OTHER
 	background-color: rgba(0,0,0,.65);
 }
 
+.synopsis a {
+	text-decoration: none;
+}
 .showleft {
-	height: 80vh;
+	height: 60vh;
 	width: auto;
 	transition: .6s all;
 }
