@@ -295,6 +295,13 @@ OTHER
 
 .synopsis a {
 	text-decoration: none;
+	color: black;
+	transition: .6s all;
+}
+
+.synopsis a:hover {
+	text-shadow: 1px 1px 1px gray;
+	size: 101%;
 }
 .showleft {
 	height: 60vh;
@@ -304,7 +311,7 @@ OTHER
 
 .showleft:hover {
 	box-shadow: 3px 3px 3px black;
-	height: 81vh;
+	height: 61vh;
 }
 
 .showtext {
@@ -512,7 +519,7 @@ DESKTOP VIEW CHANGES
 		float: left;
 		text-align: right;
 	}
-
+	
 	.right {
 		width: 44%;
 		margin-left: 2%;
