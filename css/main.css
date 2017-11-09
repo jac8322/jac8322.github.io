@@ -605,3 +605,15 @@ GIANT SCREENS
 	}
 }
 
+
+
+/**
+Phone Stuff
+**/
+
+@media screen and (min-width: 10em) and (max-width: 40em){
+	.showtext {
+		width: 50%;
+		height: auto;
+	}
+}
