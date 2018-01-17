@@ -357,6 +357,21 @@ Tags
 	max-width: 100%;
 	width: 100%;	
 }
+
+.rowphotos {
+	margin-top: 4%;
+}
+
+.wireimg {
+	margin-top: 8%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.wiresec {
+	padding-left: 1%;
+	padding-right: 1%;
+}
 /********************************************/
 /* MEDIA QUERIES */
 /********************************************/
