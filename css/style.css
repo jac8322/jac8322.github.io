@@ -1,0 +1,397 @@
+
+/********************************************/
+/* 
+
+INFO
+
+#b8b8b8 - Light Gray
+#696969 - Dim Gray
+#212121 - Black
+#ffb6c1 - Light Pink
+
+Random Image:;
+https://source.unsplash.com/800x800/?beauty,lifestyle
+
+https://www.agirlobsessedblog.com/
+http://www.jessannkirby.com/
+
+*/
+/********************************************/
+
+/********************************************/
+/* GENERAL STYLES */
+/********************************************/
+ * {
+ 	box-sizing: border-box;
+ 	font-family: 'Raleway', serif;
+ }
+
+.rowmax { 
+	max-width: 100%;
+}
+
+/********************************************/
+/* NAVIGATION BAR */
+/********************************************/
+
+/* ALL */
+
+ul {
+	list-style-type: none;
+}
+
+/* LARGE */
+
+.navlg {
+	background-color: rgba(255,255,255,.5);
+	max-width: 100%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: .5%;
+	padding-bottom: .5%;
+	position: fixed;
+	z-index: 1001;
+	border-bottom-style: solid;
+	border-color: #b8b8b8;
+}
+
+.navlgh1 {
+	font-size: 18px;
+	float: left;
+	color: #b8b8b8;
+}
+
+.navlgh1 a {
+	text-decoration: none;
+	color: #b8b8b8;
+	transition: .3s all;
+}
+
+.navlgh1 a:hover {
+	color: #212121;
+	border-bottom-style: solid;
+	border-color: #ffb6c1;
+	border-width: 1.5px;
+}
+
+.navlgli {
+	font-size: 18px;
+	display: inline-block;
+	float: right;
+	margin-left: 2%;
+}
+.navlgli a {
+	text-decoration: none;
+	color: #b8b8b8;
+	transition: .6s all;
+}
+
+.navlgli a:hover {
+	color: #212121;
+	border-bottom-style: solid;
+	border-color: #ffb6c1;
+	border-width: 1.5px;
+}
+
+/* SMALL */
+
+.navsm {
+	background-color: white;
+	max-width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom-style: solid;
+	border-color: #b8b8b8;
+	z-index: 1001;
+}
+
+.navsmh1 {
+	font-size: 16px;
+	float: left;
+}
+
+.navsmh1 a {
+	text-decoration: none;
+	color: #b8b8b8;
+	transition: .6s all;
+}
+
+.navsmh1 a:hover {
+	color: #212121;
+	border-bottom-style: solid;
+	border-color: #ffb6c1;
+	border-width: 1.5px;
+}
+
+.navbutsm {
+	float: right;
+}
+
+.fa-bars {
+	color: #b8b8b8;
+	font-size: 24px;
+	margin-top: 1%;
+}
+
+ #navbut {
+ 	position: fixed;
+ 	top: 2em;
+ 	right: -40%;
+ 	width: 40%;
+ 	margin: 0;
+ 	height: 100%;
+ 	background-color: #b8b8b8;
+ 	transition: right .6s;
+ 	background-color: white;
+ 	border-left-style: solid;
+ 	border-bottom-style: solid;
+ 	border-color: #b8b8b8;
+}
+
+#navbut:target {
+	right: 0;
+}
+
+.navsmul {
+	float: right;
+	width: 50%;
+	max-height: 38vh;
+	padding-left: 5%;
+}
+
+.navsmli a {
+	text-decoration: none;
+	color: #b8b8b8;
+	transition: .6s all;
+}
+
+.navsmli a:hover {
+	color: #212121;
+	border-bottom-style: solid;
+	border-color: #ffb6c1;
+	border-width: 1.5px;
+}
+
+.navsmli {
+	font-size: 18px;
+	margin-top: 3%;
+}
+
+/********************************************/
+/* BODY CONTENT */
+/********************************************/
+
+.bodynav {
+	text-align: left;
+	padding-top: 10%;
+	left: 40%;
+}
+
+.bodynavli {
+	margin-top: 1%;
+}
+
+.bodynavli a {
+	text-decoration: none;
+	color: #b8b8b8;
+	font-size: 24px;
+	transition: .2s all;
+}
+
+.bodynavli a:hover {
+	border-style: solid;
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-bottom-color: #ffb6c1;
+	margin-left: 1px;
+	padding-left: .5%;
+	padding-right: .5%;
+	font-size: 26px;
+	color: #212121;
+}
+
+
+/* 
+
+Tags
+
+*/
+
+.current {
+	/* Highlights current page selection */
+	border-bottom-style: dotted;
+	border-color: #ffb6c1;
+	border-width: 2px;
+}
+
+
+
+
+
+
+/*****
+
+	CONTENT SECTIONS
+
+****/
+
+/*
+
+*/
+
+.abouta {
+	padding-top: 5%;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.aboutb {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.aboutc {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+.abouth1 {
+	font-size: 24px;
+	font-family: 'Raleway', serif;
+	margin-bottom: 5%;
+	border-bottom-style: solid;
+	border-color: #ffb6c1;
+	margin-left: 1%;
+}
+
+.abouth2 {
+	font-size: 18px;
+	font-family: 'Raleway', serif;
+	text-align: left;
+	margin-left: 1%;
+	color: #696969;
+}
+
+.abouth1b {
+	text-align: right;
+	margin-right: 1%;
+}
+
+.abouth2b {
+	text-align: right;
+	margin-right: 1%;
+}
+
+.personash1 {
+	margin-top: 8%;
+	font-family: 'Raleway', serif;
+	font-size: 24px;
+	margin-bottom: 2%;
+	border-bottom-style: solid;
+	border-color: #ffb6c1;
+	margin-left: 1%;
+}
+
+.personasli {
+	font-size: 18px;
+	font-family: 'Raleway', serif;
+	color: #696969;
+}
+
+.scenariosh1 {
+	margin-top: 8%;
+	margin-bottom: 2%;
+	font-size: 24px;
+	font-family: 'Raleway', serif;
+	border-bottom-style: solid;
+	border-color: #ffb6c1;
+	margin-left: 1%;
+}
+
+.scenariosli {
+	font-size: 18px;
+	font-family: 'Raleway', serif;
+	color: #696969;
+}
+
+.researchh1qt {
+	font-size: 24px;
+	text-align: center;
+	font-family: 'Raleway', serif;
+	border-style: solid;
+	border-color: #ffb6c1;
+	margin-top: 8%;
+	margin-bottom: 1%;
+	color: #696969;
+}
+
+.researchh6qt {
+	font-size: 12px;
+	color: #b8b8b8;
+	text-align: right;
+	margin-right: 10%;
+	font-family: 'Raleway', serif;
+}
+
+.bred {
+	color: black;
+}
+
+.researchimg {
+	height: 50vh;
+	width: auto;
+	max-width: 100%;
+}
+
+.researchimg:hover {
+	box-shadow: 2px 2px #ffb6c1;
+	height: 51vh;
+	width: auto;
+}
+
+.researchimgclr {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	max-width: 100%;
+	width: 100%;	
+}
+
+.rowphotos {
+	margin-top: 4%;
+}
+
+.wireimg {
+	margin-top: 8%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.wiresec {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+/* Medium screens */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+
+} 
+
+/* min-width 1025px, large screens */
+/* Large screens */
+@media only screen and (min-width: 64.063em) { 
+
+.researchimgclr {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	max-width: 100%;
+	width: 50%;
+	margin-left: 25%;	
+}
+
+} 
+
