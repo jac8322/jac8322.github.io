@@ -244,11 +244,14 @@ Tags
 	padding-top: 5%;
 	padding-right: 0;
 	padding-left: 0;
+	margin-right: 10%;
 }
 
 .aboutb {
 	padding-left: 0;
 	padding-right: 0;
+	margin-left: 10%;
+	padding-top: 5%;
 }
 
 .aboutc {
@@ -282,6 +285,19 @@ Tags
 .abouth2b {
 	text-align: right;
 	margin-right: 1%;
+}
+
+.analysisimg {
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	height: auto;
+}
+
+.abouth3 {
+	font-size: 8px;
+	color: #b8b8b8;
+	text-align: center;
 }
 
 .personash1 {
@@ -372,6 +388,7 @@ Tags
 	padding-left: 1%;
 	padding-right: 1%;
 }
+
 /********************************************/
 /* MEDIA QUERIES */
 /********************************************/
